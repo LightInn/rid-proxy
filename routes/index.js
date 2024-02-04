@@ -7,8 +7,16 @@ const router = express.Router();
 /* GET home page. */
 router.get('/', async function (req, res, next) {
 
-    var url = new URL(req.query.u);;
+    console.log("/ called");
 
+    if (!req.query.u) {
+        res.json({
+            error: "URL is required"
+        });
+        return;
+    }
+
+    var url = new URL(req.query.u);
     console.log(url);
 
 
