@@ -1,1 +1,4 @@
-# rid-proxy
+```
+npm install
+npm run dev
+```
