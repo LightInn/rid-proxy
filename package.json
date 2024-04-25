@@ -10,14 +10,14 @@
     "@mozilla/readability": "^0.5.0",
     "jsdom": "^24.0.0",
     "next": "^14.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
     "readability": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "20.12.7",
-    "@types/react": "18.2.78",
-    "@types/react-dom": "18.2.25",
+    "@types/react": "18.3.0",
+    "@types/react-dom": "18.3.0",
     "typescript": "5.4.5"
   }
 }
