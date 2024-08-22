@@ -15,7 +15,7 @@
     "readability": "^0.1.0"
   },
   "devDependencies": {
-    "@types/node": "20.15.0",
+    "@types/node": "20.16.1",
     "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",
     "typescript": "5.5.4"
