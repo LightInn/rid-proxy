@@ -1,4 +1,4 @@
-FROM node:21.7.3-alpine3.19 as build
+FROM node:22.10.0-alpine3.19 as build
 
 COPY package.json /tmp/package.json
 RUN cd /tmp && yarn install --ignore-engines --production
